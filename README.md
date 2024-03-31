@@ -8,5 +8,8 @@ Improved based on the Google T5 model, the model is based on Transformer's encod
 
 **Innovation Points:**
 1. Supports multi-task learning, which can efficiently process sentiment analysis, news classification, text categorization, intent recognition, natural language reasoning, semantic matching, multiple choice, denotative disambiguation, extractive reading comprehension, entity recognition, keyword extraction, keyword recognition, generative summarization, a total of 13 tasks at the same time, which reduces the need for multiple independent models.
-2、Supporting the control of pre-labeled text, some predefined keywords and phrases are used to guide the model to generate more accurate prediction results.
-3、Support for multi-granularity modeling of Chinese natural language, which can simultaneously consider different levels of information such as character level, word level, sentence level, etc., so as to improve the performance of the model, which is more suitable for Chinese data.
+2. Supporting the control of pre-labeled text, some predefined keywords and phrases are used to guide the model to generate more accurate prediction results.
+3. Support for multi-granularity modeling of Chinese natural language, which can simultaneously consider different levels of information such as character level, word level, sentence level, etc., so as to improve the performance of the model, which is more suitable for Chinese data.
+
+**Run**
+'python main.py'
