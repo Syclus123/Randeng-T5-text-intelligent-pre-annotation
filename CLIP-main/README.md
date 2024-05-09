@@ -1,39 +1,39 @@
-## Taiyi-CLIP-Roberta图片分类智能预标注算法
+## Taiyi-CLIP-Roberta Intelligent Pre-Labeling Algorithm for Image Categorization
 
-### **算法介绍**
+### **Introduction of the algorithm**
 
-​	使用chinese-roberta-wwm作为中文语言编码器，使用WWM全字屏蔽增强了中文文本处理中的语言特征。将CLIP模型中的VIT-B-32应用于视觉编码器。在Noah-Wukong(100M)、Zero图文数据集上进行预训练。预标注标签可选用Imagenet数据集的21841类标签以及常见1000类标签进行约束。
+Uses chinese-roberta-wwm as a Chinese language encoder, and enhances linguistic features in Chinese text processing using WWM full-word masking. Apply VIT-B-32 from CLIP model to visual coder. Pre-training is performed on Noah-Wukong (100M), Zero graphic dataset. Pre-labeled labels can be chosen to constrain 21841 class labels from Imagenet dataset as well as common 1000 class labels.
 
-### **创新点：**
+### **Innovation Points:**
 
-1、支持多模态学习，能够在图像和文本之间建立强大的语义关系，更加全面理解图像内容。
+1、Supporting multimodal learning, it can establish a powerful semantic relationship between image and text, and understand the image content more comprehensively.
 
-2、采用RoBERTa中文编码器，更适合中文标签输入的智能预标注任务。
+2. Adopts RoBERTa Chinese encoder, which is more suitable for the intelligent pre-labeling task of Chinese label input.
 
-3、支持零样本学习，可准确推断未知类别，不受限于分类类别，具有极强扩展性。
+3、Support zero sample learning, can accurately infer unknown categories, not limited to the classification category, with strong scalability.
 
-4、可选用Imagenet的21841类别标签与常见1000类别标签自动填充，不需要人工给定标签，实现一键全智能预标注。
+4, can choose Imagenet's 21841 category labels and common 1000 category labels auto-filling, no need to manually give the label, to achieve one-key intelligent pre-labeling.
 
-### **代码运行**
+### **Code Runs**
 
-直接运行 main.py
+Run main.py directly
 
-### **代码说明**
+### **Code Description**
 
-​	main.py ——运行代码	
+main.py --run the code	
 
-​	taiyi_http.py——模型运行
+taiyi_http.py - the model to run
 
-​	class_name——存储类名文件	
+class_name -- store class name file	
 
-​	clip——clip模型文件
+clip -- clip model file
 
-​	taiyiclip——taiyi-clip模型文件
+taiyiclip -- taiyi-clip model file
 
-​	clip32——VIT-patch32的图像编码器模型文件
+clip32--VIT-patch32's image encoder model file.
 
-​	requirements.txt——依赖文件
+requirements.txt--dependency file
 
-​	
+	
 
-​	
+	
